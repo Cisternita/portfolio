@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre mí | Alejandro Majado Martínez</title>
+  <meta name="description" content="Alejandro Majado Martínez: su trayectoria, una demo en vídeo de c_notify, preguntas frecuentes y su nivel en TypeScript, C++ y Python.">
+  <link rel="canonical" href="https://cisternita.github.io/portfolio/sobre-mi.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sobre mí | Alejandro Majado Martínez">
+  <meta property="og:description" content="Alejandro Majado Martínez: su trayectoria, una demo en vídeo de c_notify, preguntas frecuentes y su nivel en TypeScript, C++ y Python.">
+  <meta property="og:image" content="https://cisternita.github.io/portfolio/img/og-sobre-mi.jpg">
+  <meta property="og:image:alt" content="Tarjeta con las palabras Sobre mí en grande y el contenido de la página">
+  <meta property="og:url" content="https://cisternita.github.io/portfolio/sobre-mi.html">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600;800&display=swap">
+</head>
+
+<body>
+
+  <a href="#contenido" class="salto">Saltar al contenido</a>
+
+  <header>
+    <a href="index.html"><img src="img/logo.svg" alt="Portada" width="64" height="64"></a>
+    <p>Alejandro Majado Martínez</p>
+    <p>Estudiante del Doble Grado en Matemáticas Aplicadas al Análisis de Datos e Informática, desarrollo web y apps</p>
+    <nav>
+      <ul>
+        <li><p><a href="index.html">Inicio</a></p></li>
+        <li><p><a href="proyectos.html">Proyectos</a></p></li>
+        <li><p><a href="contacto.html">Contacto</a></p></li>
+        <li><p><a href="sobre-mi.html">Sobre mí</a></p></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+
+    <h1>Sobre mí</h1>
+
+    <section id="trayectoria">
+      <h2>Mi trayectoria</h2>
+      <p>Desde pequeño me interesaba cómo funcionaban los ordenadores por dentro, así que empecé a programar por mi
+        cuenta. Esa curiosidad me llevó al Doble Grado en Matemáticas Aplicadas al Análisis de Datos e Informática de la
+        Universidad Europea de Madrid, y fuera de clase sigo programando por gusto: interfaces y scripts para FiveM, la
+        plataforma de servidores multijugador de GTA V.</p>
+      <p>Del desarrollo web me quedo con el <i lang="en">front-end</i>: me gusta construir interfaces que se entiendan a
+        la primera y que funcionen también con el teclado o con un lector de pantalla. Este portfolio lo he hecho como
+        dice la frase de abajo: primero que funcionara, con la estructura en HTML; después que estuviera bien, accesible
+        y validado, y por último que fuera rápido, con las imágenes optimizadas. Ahora busco unas prácticas de
+        <i lang="en">front-end</i> para trabajar así en proyectos reales.</p>
+      <figure>
+        <blockquote cite="https://wiki.c2.com/?MakeItWorkMakeItRightMakeItFast">
+          <p>Haz que funcione, haz que esté bien, haz que sea rápido.</p>
+        </blockquote>
+        <figcaption>Frase atribuida a Kent Beck. En inglés: <i lang="en">make it work, make it right, make it
+            fast</i>.</figcaption>
+      </figure>
+    </section>
+
+    <section id="linea-de-tiempo">
+      <h2>Línea de tiempo</h2>
+      <ol>
+        <li><time datetime="2022">2022</time>: empiezo el Doble Grado en Matemáticas Aplicadas al Análisis de Datos e
+          Informática en la Universidad Europea de Madrid.</li>
+        <li><time datetime="2024">2024</time>: publico c_notify, mi sistema de notificaciones para FiveM, con la
+          interfaz en Svelte y TypeScript.</li>
+        <li><time datetime="2024">2024</time>: empiezo a colaborar con JaRoLoz en Byte, un framework para FiveM en
+          TypeScript, y en jade, su herramienta de compilación en Rust.</li>
+        <li><time datetime="2025">2025</time>: hago EcoMap con tres compañeros para encontrar las mejores zonas de
+          España donde instalar energías renovables.</li>
+        <li><time datetime="2026-05">Mayo de 2026</time>: entrego mi TFG, un sistema de alerta temprana de violencia
+          política en 45 países europeos.</li>
+        <li><time datetime="2026-10">Octubre de 2026</time>: publico este portfolio en GitHub Pages.</li>
+        <li><time datetime="2027-02">Febrero de 2027</time>: lo próximo, empezar unas prácticas de desarrollo
+          <i lang="en">front-end</i>.</li>
+      </ol>
+    </section>
+
+    <section id="video">
+      <h2>En vídeo</h2>
+      <p>Una demo de 40 segundos de c_notify, mi sistema de notificaciones para servidores de FiveM. No tiene sonido:
+        los subtítulos cuentan lo que pasa, y debajo tienes el mismo texto.</p>
+      <video controls width="640" height="360" poster="media/c-notify-demo.jpg" preload="metadata">
+        <source src="media/c-notify-demo.webm" type="video/webm">
+        <source src="media/c-notify-demo.mp4" type="video/mp4">
+        <track kind="captions" src="media/c-notify-demo.vtt" srclang="es" label="Español" default>
+        <p>Tu navegador no puede reproducir el vídeo: <a href="media/c-notify-demo.mp4">descarga la demo de c_notify
+            en MP4</a>.</p>
+      </video>
+      <p>Transcripción: esto es c_notify, el sistema de notificaciones que hice para servidores de FiveM. Hay cuatro
+        tipos (información, aviso, alerta y éxito), cada uno con su color y su icono. Entran con una animación, se
+        apilan y se cierran solas cuando pasa su tiempo. Fuera del juego, un panel de pruebas me deja escribir una
+        notificación propia y elegir su duración, su color y su icono. En el juego, un script en Lua envía cada aviso
+        a esta interfaz, hecha con Svelte y TypeScript.</p>
+      <p><a href="https://github.com/Cisternita/c_notify" target="_blank" rel="noopener">Ver el repositorio de c_notify
+          en GitHub</a></p>
+    </section>
+
+    <section id="preguntas">
+      <h2>Preguntas frecuentes</h2>
+      <details open>
+        <summary>¿Trabajas en remoto?</summary>
+        <p>Sí. Puedo trabajar en remoto, en presencial o en un formato híbrido; en el
+          <a href="contacto.html">formulario de contacto</a> puedes decirme cuál prefieres.</p>
+      </details>
+      <hr>
+      <details>
+        <summary>¿Qué tecnologías dominas?</summary>
+        <p>Las que más uso son TypeScript, con Svelte para las interfaces, y Python con pandas y scikit-learn para
+          analizar datos. Debajo tienes mi nivel en tres de ellas, y en la portada, la
+          <a href="index.html#habilidades">lista completa de mis habilidades</a>.</p>
+      </details>
+      <hr>
+      <details>
+        <summary>¿Cuándo puedes empezar?</summary>
+        <p>Estoy disponible para prácticas desde <time datetime="2027-02">febrero de 2027</time>.</p>
+      </details>
+      <hr>
+      <details>
+        <summary>¿Aceptas proyectos pequeños?</summary>
+        <p>Sí. Una <i lang="en">landing page</i>, un script para FiveM o un análisis de datos acotado también me sirven
+          para aprender y para enseñar resultados.</p>
+      </details>
+      <hr>
+      <details>
+        <summary>¿Cómo te contacto?</summary>
+        <p>Con el <a href="contacto.html">formulario de contacto</a> o escribiéndome a
+          <a href="mailto:alejandro.majado@gmail.com">alejandro.majado@gmail.com</a>. Mis perfiles de GitHub y
+          LinkedIn están al pie de la página.</p>
+      </details>
+    </section>
+
+    <section id="nivel">
+      <h2>Nivel</h2>
+      <p>Del 1 al 5, lo que puedo defender en una entrevista.</p>
+      <ul>
+        <li><label for="nivel-typescript">TypeScript</label>
+          <meter id="nivel-typescript" min="1" max="5" value="5">5 de 5</meter> 5 de 5. Lo uso a fondo en Byte, un
+          framework para FiveM que se transpila a Lua, y en mis interfaces con Svelte.</li>
+        <li><label for="nivel-cpp">C++</label>
+          <meter id="nivel-cpp" min="1" max="5" value="4">4 de 5</meter> 4 de 5. Resuelvo problemas de algoritmos y
+          estructuras de datos.</li>
+        <li><label for="nivel-python">Python</label>
+          <meter id="nivel-python" min="1" max="5" value="4">4 de 5</meter> 4 de 5. Limpio y analizo datos con pandas
+          y entreno modelos con scikit-learn, como en mi TFG.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <address>
+      <ul>
+        <li>Email: <a href="mailto:alejandro.majado@gmail.com"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"/><path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"/></svg> alejandro.majado@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/Cisternita" target="_blank" rel="noopener"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> github.com/Cisternita</a></li>
+        <li>LinkedIn: <a href="https://es.linkedin.com/in/alejandro-majado-mart%C3%ADnez" target="_blank" rel="noopener"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg> linkedin.com/in/alejandro-majado-martínez</a></li>
+      </ul>
+    </address>
+    <p><small>© 2026 Alejandro Majado Martínez. Todos los derechos reservados.</small></p>
+  </footer>
+
+</body>
+
+</html>

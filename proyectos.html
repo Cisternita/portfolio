@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyectos | Alejandro Majado Martínez</title>
+  <meta name="description" content="Proyectos de Alejandro Majado Martínez: su TFG de predicción de conflictos, EcoMap, c_notify, Byte, jade y CSVDataLoader, y qué aprendió en cada uno.">
+  <link rel="canonical" href="https://cisternita.github.io/portfolio/proyectos.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Proyectos | Alejandro Majado Martínez">
+  <meta property="og:description" content="Proyectos de Alejandro Majado Martínez: su TFG de predicción de conflictos, EcoMap, c_notify, Byte, jade y CSVDataLoader, y qué aprendió en cada uno.">
+  <meta property="og:image" content="https://cisternita.github.io/portfolio/img/og-proyectos.jpg">
+  <meta property="og:image:alt" content="Tarjeta con la palabra Proyectos en grande y los proyectos del portfolio">
+  <meta property="og:url" content="https://cisternita.github.io/portfolio/proyectos.html">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600;800&display=swap">
+</head>
+
+<body>
+
+  <a href="#contenido" class="salto">Saltar al contenido</a>
+
+  <header>
+    <a href="index.html"><img src="img/logo.svg" alt="Portada" width="64" height="64"></a>
+    <p>Alejandro Majado Martínez</p>
+    <p>Estudiante del Doble Grado en Matemáticas Aplicadas al Análisis de Datos e Informática, desarrollo web y apps</p>
+    <nav>
+      <ul>
+        <li><p><a href="index.html">Inicio</a></p></li>
+        <li><p><a href="proyectos.html">Proyectos</a></p></li>
+        <li><p><a href="contacto.html">Contacto</a></p></li>
+        <li><p><a href="sobre-mi.html">Sobre mí</a></p></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+
+    <h1>Proyectos</h1>
+    <ul>
+      <li><a href="#web">Proyectos web</a>: c_notify y EcoMap</li>
+      <li><a href="#programacion">Proyectos de programación</a>: Byte y jade</li>
+      <li><a href="#datos">Proyectos de análisis de datos</a>: el TFG y CSVDataLoader</li>
+    </ul>
+
+    <section id="web">
+      <h2>Web</h2>
+
+      <article id="c-notify" class="proyecto" data-anio="2024" data-tecnologia="svelte">
+        <h3>c_notify</h3>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="img/proyecto-c-notify.webp 1x, img/proyecto-c-notify-2x.webp 2x">
+            <img src="img/proyecto-c-notify.png" alt="Cuatro notificaciones apiladas a la derecha de la pantalla: información, aviso, alerta y éxito, cada una con su color y su icono" width="640" height="400">
+          </picture>
+          <figcaption>Los cuatro tipos de notificación de c_notify.</figcaption>
+        </figure>
+        <p>Sistema de notificaciones para servidores de FiveM, la plataforma multijugador de GTA V. El script de
+          juego en Lua recibe cada aviso y se lo pasa a una interfaz web hecha con Svelte y TypeScript, que lo
+          muestra con su color, su icono y el tiempo indicado; las notificaciones entran con una animación y se
+          apilan. Lo hice yo, con JaRoLoz como coautor, y aprendí a comunicar el juego con una interfaz web (NUI)
+          y a usar componentes y transiciones de Svelte.</p>
+        <p>Tecnologías:</p>
+        <ul>
+          <li>Svelte</li>
+          <li>TypeScript</li>
+          <li>Lua</li>
+          <li>HTML y CSS</li>
+        </ul>
+        <p><a href="https://github.com/Cisternita/c_notify" target="_blank" rel="noopener">Ver el repositorio de c_notify en GitHub</a></p>
+      </article>
+
+      <article id="ecomap" class="proyecto" data-anio="2025" data-tecnologia="python">
+        <h3>EcoMap</h3>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="img/proyecto-ecomap.webp 1x, img/proyecto-ecomap-2x.webp 2x">
+            <img src="img/proyecto-ecomap.png" alt="Portada de la web de EcoMap con el selector de energía solar, eólica e hidráulica y el comienzo del mapa de zonas óptimas de España" width="640" height="400" loading="lazy">
+          </picture>
+          <figcaption>La página de inicio de EcoMap.</figcaption>
+        </figure>
+        <p>Proyecto de la carrera, en equipo con tres compañeros, para encontrar las mejores zonas de España donde
+          instalar energías renovables. Recogimos datos de Red Eléctrica, del clima y del catastro, los preparamos
+          con procesos ETL, entrenamos un modelo que valora la viabilidad de cada zona y lo mostramos en una web con
+          el mapa de provincias. Aprendí a repartir el trabajo con Git y a desplegarlo todo con Docker:
+          Elasticsearch, la API en Python y la web en Svelte.</p>
+        <p>Tecnologías:</p>
+        <ul>
+          <li>Python</li>
+          <li>Jupyter</li>
+          <li>Elasticsearch</li>
+          <li>Docker</li>
+          <li>Svelte</li>
+          <li>TypeScript</li>
+        </ul>
+      </article>
+
+    </section>
+
+    <section id="programacion">
+      <h2>Programación</h2>
+
+      <article id="byte" class="proyecto en-curso" data-anio="2024" data-tecnologia="typescript">
+        <h3>Byte</h3>
+        <p>Estado: <mark>En curso</mark></p>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="img/proyecto-byte.webp 1x, img/proyecto-byte-2x.webp 2x">
+            <img src="img/proyecto-byte.png" alt="Documentación de Byte con el logotipo del framework, una B azul, y el índice de módulos del cliente" width="640" height="400" loading="lazy">
+          </picture>
+          <figcaption>La documentación pública de Byte.</figcaption>
+        </figure>
+        <p>Framework «con pilas incluidas» para FiveM que desarrollo junto a su autor, JaRoLoz. Está escrito en
+          TypeScript y se transpila a Lua con un fork de TypeScriptToLua; trae registro de logs, variables de
+          entorno, configuración y traducciones en XML y llamadas entre cliente y servidor, y se compila con jade.
+          Con él aprendí a organizar un proyecto grande en TypeScript y a publicar sus tipos para que otros
+          recursos lo usen.</p>
+        <p>Tecnologías:</p>
+        <ul>
+          <li>TypeScript</li>
+          <li>Lua</li>
+          <li>XML</li>
+        </ul>
+        <p><a href="https://github.com/Byte-fw/Byte" target="_blank" rel="noopener">Ver el repositorio de Byte en GitHub</a></p>
+        <p><a href="https://byte-fw.github.io/Byte/client" target="_blank" rel="noopener">Ver la documentación de Byte</a></p>
+      </article>
+
+      <article id="jade" class="proyecto" data-anio="2024" data-tecnologia="rust">
+        <h3>jade</h3>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="img/proyecto-jade.webp 1x, img/proyecto-jade-2x.webp 2x">
+            <img src="img/proyecto-jade.png" alt="Repositorio de jade en GitHub con la carpeta src, el Cargo.toml y la versión 2.0.1" width="640" height="400" loading="lazy">
+          </picture>
+          <figcaption>El repositorio de jade en GitHub.</figcaption>
+        </figure>
+        <p>Herramienta de compilación para la plataforma Cfx.re (FiveM) que hice junto a su autor, JaRoLoz. Lee la
+          configuración de cada recurso, empaqueta el código Lua, compila el JavaScript con el gestor de paquetes
+          que se elija (npm, pnpm, yarn o bun) y genera el fxmanifest.lua; además admite una configuración
+          distinta por entorno. Con ella aprendí Rust: traits, tareas en paralelo y programas de línea de
+          comandos.</p>
+        <p>Tecnologías:</p>
+        <ul>
+          <li>Rust</li>
+          <li>XML</li>
+          <li>GitHub Actions</li>
+        </ul>
+        <p><a href="https://github.com/JaRoLoz/jade" target="_blank" rel="noopener">Ver el repositorio de jade en GitHub</a></p>
+      </article>
+
+    </section>
+
+    <section id="datos">
+      <h2>Análisis de datos</h2>
+
+      <article id="tfg" class="proyecto" data-anio="2026" data-tecnologia="python">
+        <h3>TFG: Predicción temprana de conflictos</h3>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="img/proyecto-tfg.webp 1x, img/proyecto-tfg-2x.webp 2x">
+            <img src="img/proyecto-tfg.png" alt="Panel de la web del TFG: mapa de Europa con cada país coloreado según su riesgo, el selector de modelo y el ranking de países" width="640" height="371" loading="lazy">
+          </picture>
+          <figcaption>La web del TFG compara modelos lineales, de bagging y de boosting sobre el mapa.</figcaption>
+        </figure>
+        <p>Mi Trabajo Fin de Grado del Grado en Matemáticas Aplicadas al Análisis de Datos, entregado en mayo de
+          2026. A partir de un panel semanal por país con datos de ACLED y de Eurostat, predice si la semana
+          siguiente habrá eventos de violencia política, y de qué tipo, en 45 países europeos, y una web con un
+          mapa muestra el riesgo de cada país. Comparé nueve modelos con validación temporal y aprendí a
+          calibrarlos e interpretarlos: el mejor llegó a un ROC-AUC de 0,89 en test, y una regresión logística
+          bien regularizada rindió tanto como el boosting.</p>
+        <p>Tecnologías:</p>
+        <ul>
+          <li>Python</li>
+          <li>pandas</li>
+          <li>scikit-learn</li>
+          <li>Jupyter</li>
+          <li>Svelte</li>
+          <li>TypeScript</li>
+          <li>Leaflet</li>
+          <li>Three.js</li>
+        </ul>
+        <p><a href="https://github.com/Cisternita/TFG" target="_blank" rel="noopener">Ver el repositorio del TFG en GitHub</a></p>
+      </article>
+
+      <article id="csvdataloader" class="proyecto" data-anio="2024" data-tecnologia="python">
+        <h3>CSVDataLoader</h3>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="img/proyecto-csvdataloader.webp 1x, img/proyecto-csvdataloader-2x.webp 2x">
+            <img src="img/proyecto-csvdataloader.png" alt="Código de la clase CSVDataLoader en GitHub, que importa pandas y matplotlib" width="640" height="400" loading="lazy">
+          </picture>
+          <figcaption>La clase CSVDataLoader en GitHub.</figcaption>
+        </figure>
+        <p>Clase de Python que carga en DataFrames de pandas todos los CSV de una carpeta y los limpia con métodos
+          por defecto: quita columnas vacías y repetidas, normaliza los nombres, elimina filas vacías y duplicadas
+          y convierte las fechas. También resume los valores nulos y dibuja diagramas de Pareto con matplotlib. La
+          hice para trabajar con datos de actuaciones de bomberos y de accidentalidad, y aprendí a escribir código
+          de limpieza reutilizable en lugar de repetirlo en cada análisis.</p>
+        <p>Tecnologías:</p>
+        <ul>
+          <li>Python</li>
+          <li>pandas</li>
+          <li>matplotlib</li>
+        </ul>
+        <p><a href="https://github.com/Cisternita/CSVDataLoader" target="_blank" rel="noopener">Ver el repositorio de CSVDataLoader en GitHub</a></p>
+      </article>
+
+    </section>
+
+    <section id="como-trabajo">
+      <h2>Cómo trabajo</h2>
+      <ol>
+        <li>Analizar: leo el enunciado o lo que pide el cliente hasta el final y lo convierto en requisitos que
+          se puedan comprobar.</li>
+        <li>Diseñar: antes de escribir código decido el contenido de cada página y qué etiqueta le corresponde a
+          cada bloque.</li>
+        <li>Programar:
+          <ul>
+            <li>Escribo el HTML semántico, con rutas relativas y nombres de archivo en minúsculas.</li>
+            <li>Después añado el CSS y, si hace falta, el JavaScript.</li>
+          </ul>
+        </li>
+        <li>Probar:
+          <ul>
+            <li>Paso cada página por validator.w3.org hasta tener 0 errores.</li>
+            <li>Reviso la jerarquía de encabezados con HeadingsMap.</li>
+            <li>Abro la web con Live Server y compruebo que funcionan todos los enlaces y se ven todas las imágenes.</li>
+          </ul>
+        </li>
+        <li>Entregar: comprimo la carpeta completa y compruebo que la web se ve igual en otro ordenador.</li>
+      </ol>
+    </section>
+
+    <section id="resumen">
+      <h2>Resumen de proyectos</h2>
+      <table>
+        <caption>Mis proyectos por categoría, año y tecnología principal</caption>
+        <thead>
+          <tr>
+            <th scope="col">Proyecto</th>
+            <th scope="col">Categoría</th>
+            <th scope="col">Año</th>
+            <th scope="col">Tecnología</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">c_notify</th>
+            <td>Web</td>
+            <td>2024</td>
+            <td>Svelte</td>
+          </tr>
+          <tr>
+            <th scope="row">EcoMap</th>
+            <td>Web</td>
+            <td>2025</td>
+            <td>Python</td>
+          </tr>
+          <tr>
+            <th scope="row">Byte</th>
+            <td>Programación</td>
+            <td>2024</td>
+            <td>TypeScript</td>
+          </tr>
+          <tr>
+            <th scope="row">jade</th>
+            <td>Programación</td>
+            <td>2024</td>
+            <td>Rust</td>
+          </tr>
+          <tr>
+            <th scope="row">TFG: Predicción temprana de conflictos</th>
+            <td>Análisis de datos</td>
+            <td>2026</td>
+            <td>Python</td>
+          </tr>
+          <tr>
+            <th scope="row">CSVDataLoader</th>
+            <td>Análisis de datos</td>
+            <td>2024</td>
+            <td>Python</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row" colspan="3">Total de proyectos</th>
+            <td>6</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+  </main>
+
+  <footer>
+    <address>
+      <ul>
+        <li>Email: <a href="mailto:alejandro.majado@gmail.com"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"/><path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"/></svg> alejandro.majado@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/Cisternita" target="_blank" rel="noopener"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> github.com/Cisternita</a></li>
+        <li>LinkedIn: <a href="https://es.linkedin.com/in/alejandro-majado-mart%C3%ADnez" target="_blank" rel="noopener"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg> linkedin.com/in/alejandro-majado-martínez</a></li>
+      </ul>
+    </address>
+    <p><small>© 2026 Alejandro Majado Martínez. Todos los derechos reservados.</small></p>
+  </footer>
+
+</body>
+
+</html>

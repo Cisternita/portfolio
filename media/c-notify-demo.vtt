@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00:00.300 --> 00:00:05.300
+Esto es c_notify, el sistema de notificaciones
+que hice para servidores de FiveM.
+
+00:00:05.300 --> 00:00:10.700
+Hay cuatro tipos: información, aviso, alerta y éxito,
+cada uno con su color y su icono.
+
+00:00:10.800 --> 00:00:16.300
+Entran con una animación, se apilan
+y se cierran solas cuando pasa su tiempo.
+
+00:00:16.400 --> 00:00:21.300
+Fuera del juego, este panel de pruebas
+me deja escribir una notificación propia…
+
+00:00:21.300 --> 00:00:26.200
+…y elegir su duración, su color y su icono.
+
+00:00:26.300 --> 00:00:33.400
+En el juego, un script en Lua envía cada aviso
+a esta interfaz, hecha con Svelte y TypeScript.
+
+00:00:33.500 --> 00:00:40.700
+El código está en GitHub:
+github.com/Cisternita/c_notify
