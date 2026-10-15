@@ -1,7 +1,7 @@
 # Portfolio de Alejandro Majado Martínez
 
 Mi portfolio personal, hecho en HTML5 semántico para la asignatura Desarrollo de Web y de Apps de la Universidad
-Europea. De momento no lleva CSS ni JavaScript: el diseño llega en la Parte 4.
+Europea.
 
 URL pública: https://cisternita.github.io/portfolio/
 
